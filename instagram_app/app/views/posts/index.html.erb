@@ -1,0 +1,11 @@
+<%= javascript_include_tag "index" %>
+<% @posts.each do |x| %>
+	<div class="white">
+	<%= image_tag x.image.url(:medium) %>
+	<br>
+	<%= x.description %>
+	<br>
+	<button type="button" class="btn btn-link" onclick="like.call(this)">Like</button>
+	</div>
+	<br>
+<% end %>
