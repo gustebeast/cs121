@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description:
 
-Things you may want to cover:
+A basic instagram like site made using ruby on rails and [this youtube tutorial](https://www.youtube.com/watch?v=MpFO4Zr0EPE). Supports registration/login and posting/viewing images.
 
-* Ruby version
+## Screenshots:
+![](http://imgur.com/Jm6rgUY.png)
+Register
 
-* System dependencies
+![](http://imgur.com/BuxfLEl.png)
+Log in
 
-* Configuration
+![](http://imgur.com/10QI9sS.png)
+Log out
 
-* Database creation
+![](http://imgur.com/Is05LnZ.png)
+New post
 
-* Database initialization
+![](http://imgur.com/4E1VUEF.png)
+Post successful
 
-* How to run the test suite
+![](http://imgur.com/21od4jz.png)
+Main page
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can see in the last screenshot that I added an additional little feature. Each post has a like button which you can click to change the text to "unlike." Clicking again changes the text back. This feature is purely asthetic and has no backend functionality.
